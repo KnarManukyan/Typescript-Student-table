@@ -1,0 +1,29 @@
+textarea{
+    padding:9px 0;
+    width:100%;
+    border:none;
+    border-bottom: 1px solid #ccc
+}
+
+.modalText{
+    font-weight: bolder;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ebfffd;
+}
+
+#addStudentButton{
+    margin: 10px;
+}

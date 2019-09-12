@@ -1,0 +1,13 @@
+{
+  "files": [
+    "src/main.ts",
+    "src/Person.ts",
+    "src/Student.ts",
+    "src/Validation.ts",
+    "src/Drawing.ts"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<button id="addStudentButton" class="w3-button w3-green">Add Student</button>
+<div id = "studentsTable"></div>
+<div id="addStudentModal" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+        <div class="w3-center"><br>
+            <p class = "modalText">Add Student</p>
+            <span id="cancelButton2" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+        </div>
+        <form id="form" class="w3-container" action="javascript:void(0);">
+            <div class="w3-section">
+                <label><b>Id</b></label>
+                <input class="w3-input w3-border" id="id" placeholder="id" type="text">
+                <label><b>Firstname</b></label>
+                <input class="w3-input w3-border" id="firstName" placeholder="firstName" type="text">
+                <label><b>Lastname</b></label>
+                <input class="w3-input w3-border" id="lastName" placeholder="lastName" type="text">
+                <label><b>Email</b></label>
+                <input class="w3-input w3-border" id="email" placeholder="email" type="text">
+                <label><b>Phone</b></label>
+                <input class="w3-input w3-border" id="phone" placeholder="phone" type="text">
+                <label><b>Note</b></label>
+                <textarea id="note" placeholder="note"></textarea>
+                <br>
+                <label><b>Age</b></label>
+                <select class="w3-select" id="age" placeholder="age" class="swal-content__input"></select>
+            </div>
+        </form>
+
+        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+            <button id="addButton" class="w3-button w3-green" type="submit">ADD</button>
+            <button id="cancelButton1" type="button" class="w3-button w3-red">Cancel</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>
